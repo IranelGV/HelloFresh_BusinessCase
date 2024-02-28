@@ -1,0 +1,1032 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Data Task 1 (HelloFresh_Dataset)' inline='true' name='federated.0i32phn08t8ct71chkjel04n3fe1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HelloFresh_Dataset' name='excel-direct.1idqaei1mjzegm16tlysw1h183q2'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/espan/OneDrive/Documents/GitHub/HelloFresh_BusinessCase/HelloFresh_BusinessCaseN1/HelloFresh_Dataset.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1idqaei1mjzegm16tlysw1h183q2' name='Data Task 1' table='[&apos;Data Task 1$&apos;]' type='table'>
+          <columns gridOrigin='A1:E3546:no:A1:E3546:0' header='yes' outcome='6'>
+            <column datatype='string' name='Pause Week' ordinal='0' />
+            <column datatype='string' name='Platform' ordinal='1' />
+            <column datatype='string' name='Theme' ordinal='2' />
+            <column datatype='string' name='Sub Theme' ordinal='3' />
+            <column datatype='integer' name='Comment count' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1idqaei1mjzegm16tlysw1h183q2' name='Data Task 1' table='[&apos;Data Task 1$&apos;]' type='table'>
+          <columns gridOrigin='A1:E3546:no:A1:E3546:0' header='yes' outcome='6'>
+            <column datatype='string' name='Pause Week' ordinal='0' />
+            <column datatype='string' name='Platform' ordinal='1' />
+            <column datatype='string' name='Theme' ordinal='2' />
+            <column datatype='string' name='Sub Theme' ordinal='3' />
+            <column datatype='integer' name='Comment count' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data Task 1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E3546:no:A1:E3546:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pause Week</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Pause Week]</local-name>
+            <parent-name>[Data Task 1]</parent-name>
+            <remote-alias>Pause Week</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Task 1_86CD537BA80E4321BACC9392C57CD620]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Platform</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Platform]</local-name>
+            <parent-name>[Data Task 1]</parent-name>
+            <remote-alias>Platform</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Task 1_86CD537BA80E4321BACC9392C57CD620]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Theme</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Theme]</local-name>
+            <parent-name>[Data Task 1]</parent-name>
+            <remote-alias>Theme</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Task 1_86CD537BA80E4321BACC9392C57CD620]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub Theme</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sub Theme]</local-name>
+            <parent-name>[Data Task 1]</parent-name>
+            <remote-alias>Sub Theme</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Task 1_86CD537BA80E4321BACC9392C57CD620]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Comment count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Comment count]</local-name>
+            <parent-name>[Data Task 1]</parent-name>
+            <remote-alias>Comment count</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Task 1_86CD537BA80E4321BACC9392C57CD620]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Sub_Theme_count' datatype='integer' name='[Calculation_1291125777756336128]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Sub Theme])' />
+      </column>
+      <column datatype='string' name='[Pause Week]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Sub Theme]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Theme]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Data Task 1' datatype='table' name='[__tableau_internal_object_id__].[Data Task 1_86CD537BA80E4321BACC9392C57CD620]' role='measure' type='quantitative' />
+      <column-instance column='[Pause Week]' derivation='None' name='[none:Pause Week:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Pause Week)' hidden='true' name='[Action (Pause Week)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Pause Week]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Sub Theme)' hidden='true' name='[Action (Sub Theme)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Sub Theme]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Theme)' hidden='true' name='[Action (Theme)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Theme]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/espan/OneDrive/Documents/GitHub/HelloFresh_BusinessCase/HelloFresh_BusinessCaseN1/Data Task 1 (HelloFresh_Dataset).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/28/2024 08:24:26 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='Data Task 1 (HelloFresh_Dataset)' increment-value='%null%' refresh-type='create' rows-inserted='3545' timestamp-start='2024-02-28 08:24:25.849' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Pause Week</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pause Week]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pause Week</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Data Task 1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Task 1_86CD537BA80E4321BACC9392C57CD620]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Platform</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Platform]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Platform</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Data Task 1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Task 1_86CD537BA80E4321BACC9392C57CD620]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Theme</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Theme]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Theme</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Data Task 1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Task 1_86CD537BA80E4321BACC9392C57CD620]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sub Theme</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sub Theme]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sub Theme</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Data Task 1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Task 1_86CD537BA80E4321BACC9392C57CD620]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Comment count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Comment count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Comment count</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Data Task 1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Task 1_86CD537BA80E4321BACC9392C57CD620]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Pause Week:nk]' palette='purple_pink_gray_10_0' type='palette'>
+            <map to='#8074a8'>
+              <bucket>&quot;W24&quot;</bucket>
+            </map>
+            <map to='#c46487'>
+              <bucket>&quot;W26&quot;</bucket>
+            </map>
+            <map to='#c6c1f0'>
+              <bucket>&quot;W25&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;USA&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Pause Week' />
+        <field-sort-custom-order field='Platform' />
+        <field-sort-custom-order field='Theme' />
+        <field-sort-custom-order field='Sub Theme' />
+        <field-sort-custom-order field='Calculation_1291125777756336128' />
+        <field-sort-custom-order field='Comment count' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data Task 1' id='Data Task 1_86CD537BA80E4321BACC9392C57CD620'>
+            <properties context=''>
+              <relation connection='excel-direct.1idqaei1mjzegm16tlysw1h183q2' name='Data Task 1' table='[&apos;Data Task 1$&apos;]' type='table'>
+                <columns gridOrigin='A1:E3546:no:A1:E3546:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Pause Week' ordinal='0' />
+                  <column datatype='string' name='Platform' ordinal='1' />
+                  <column datatype='string' name='Theme' ordinal='2' />
+                  <column datatype='string' name='Sub Theme' ordinal='3' />
+                  <column datatype='integer' name='Comment count' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_0956EE0D7D7646C69F6D06C7F7CDE3F6]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Details_Compleins (2)' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_5C3368F400B140B29B4AA77402BBD77D]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='General_Compleins' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_698D4C5A2898473AACB46B4BACCBFEFE]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 4' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Details_Compleins'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Task 1 (HelloFresh_Dataset)' name='federated.0i32phn08t8ct71chkjel04n3fe1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0i32phn08t8ct71chkjel04n3fe1'>
+            <column caption='Sub_Theme_count' datatype='integer' name='[Calculation_1291125777756336128]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Sub Theme])' />
+            </column>
+            <column datatype='string' name='[Sub Theme]' role='dimension' type='nominal' />
+            <column-instance column='[Sub Theme]' derivation='None' name='[none:Sub Theme:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1291125777756336128]' derivation='User' name='[usr:Calculation_1291125777756336128:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0i32phn08t8ct71chkjel04n3fe1].[usr:Calculation_1291125777756336128:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Sub Theme:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{D2B822C3-C7BC-4408-8435-0680C88CF627}' />
+    </worksheet>
+    <worksheet lock-quick-filters='true' name='Details_Compleins (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Details Complains</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Task 1 (HelloFresh_Dataset)' name='federated.0i32phn08t8ct71chkjel04n3fe1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0i32phn08t8ct71chkjel04n3fe1'>
+            <column caption='Sub_Theme_count' datatype='integer' name='[Calculation_1291125777756336128]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Sub Theme])' />
+            </column>
+            <column datatype='string' name='[Pause Week]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sub Theme]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Theme]' role='dimension' type='nominal' />
+            <column-instance column='[Sub Theme]' derivation='None' name='[none:Sub Theme:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1291125777756336128]' derivation='User' name='[usr:Calculation_1291125777756336128:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0i32phn08t8ct71chkjel04n3fe1].[Action (Pause Week)]'>
+            <groupfilter function='level-members' level='[Pause Week]' user:ui-action-filter='[Action3_698D4C5A2898473AACB46B4BACCBFEFE]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0i32phn08t8ct71chkjel04n3fe1].[Action (Theme)]'>
+            <groupfilter function='level-members' level='[Theme]' user:ui-action-filter='[Action2_5C3368F400B140B29B4AA77402BBD77D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Sub Theme:nk]'>
+            <groupfilter function='level-members' level='[none:Sub Theme:nk]' />
+          </filter>
+          <filter class='quantitative' column='[federated.0i32phn08t8ct71chkjel04n3fe1].[usr:Calculation_1291125777756336128:qk]' included-values='in-range' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Sub Theme:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0i32phn08t8ct71chkjel04n3fe1].[usr:Calculation_1291125777756336128:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0i32phn08t8ct71chkjel04n3fe1].[usr:Calculation_1291125777756336128:qk]</column>
+            <column>[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Sub Theme:nk]</column>
+            <column>[federated.0i32phn08t8ct71chkjel04n3fe1].[Action (Pause Week)]</column>
+            <column>[federated.0i32phn08t8ct71chkjel04n3fe1].[Action (Theme)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.0i32phn08t8ct71chkjel04n3fe1].[usr:Calculation_1291125777756336128:qk]' value='52' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#edc948' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0i32phn08t8ct71chkjel04n3fe1].[usr:Calculation_1291125777756336128:qk]</rows>
+        <cols>[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Sub Theme:nk]</cols>
+      </table>
+      <simple-id uuid='{57BA9745-673E-4592-AF5D-006F107F389D}' />
+    </worksheet>
+    <worksheet name='General_Compleins'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>General Complains</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Task 1 (HelloFresh_Dataset)' name='federated.0i32phn08t8ct71chkjel04n3fe1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0i32phn08t8ct71chkjel04n3fe1'>
+            <column datatype='string' name='[Pause Week]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Theme]' role='dimension' type='nominal' />
+            <column-instance column='[Theme]' derivation='Count' name='[cnt:Theme:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Theme]' derivation='None' name='[none:Theme:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0i32phn08t8ct71chkjel04n3fe1].[Action (Pause Week)]'>
+            <groupfilter function='level-members' level='[Pause Week]' user:ui-action-filter='[Action3_698D4C5A2898473AACB46B4BACCBFEFE]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Theme:nk]'>
+            <groupfilter function='level-members' level='[none:Theme:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Theme:nk]</column>
+            <column>[federated.0i32phn08t8ct71chkjel04n3fe1].[Action (Pause Week)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.0i32phn08t8ct71chkjel04n3fe1].[cnt:Theme:qk]' value='56' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Theme:nk]' value=''>
+              <formatted-text />
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#499894' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0i32phn08t8ct71chkjel04n3fe1].[cnt:Theme:qk]</rows>
+        <cols>[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Theme:nk]</cols>
+      </table>
+      <simple-id uuid='{D1F24C2C-A9BE-4C4F-BFA0-FCBBA0078816}' />
+    </worksheet>
+    <worksheet name='General_Compleins (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Task 1 (HelloFresh_Dataset)' name='federated.0i32phn08t8ct71chkjel04n3fe1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0i32phn08t8ct71chkjel04n3fe1'>
+            <column datatype='string' name='[Theme]' role='dimension' type='nominal' />
+            <column-instance column='[Theme]' derivation='Count' name='[cnt:Theme:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Theme]' derivation='None' name='[none:Theme:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0i32phn08t8ct71chkjel04n3fe1].[cnt:Theme:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Theme:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{16F2EFC2-F493-40BF-B522-045D74262E13}' />
+    </worksheet>
+    <worksheet name='General_Compleins (3)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Compleins</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Task 1 (HelloFresh_Dataset)' name='federated.0i32phn08t8ct71chkjel04n3fe1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0i32phn08t8ct71chkjel04n3fe1'>
+            <column datatype='string' name='[Pause Week]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Theme]' role='dimension' type='nominal' />
+            <column-instance column='[Theme]' derivation='Count' name='[cnt:Theme:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0i32phn08t8ct71chkjel04n3fe1].[Action (Pause Week)]'>
+            <groupfilter function='level-members' level='[Pause Week]' user:ui-action-filter='[Action3_698D4C5A2898473AACB46B4BACCBFEFE]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0i32phn08t8ct71chkjel04n3fe1].[Action (Theme)]'>
+            <groupfilter function='level-members' level='[Theme]' user:ui-action-filter='[Action2_5C3368F400B140B29B4AA77402BBD77D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0i32phn08t8ct71chkjel04n3fe1].[Action (Pause Week)]</column>
+            <column>[federated.0i32phn08t8ct71chkjel04n3fe1].[Action (Theme)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-size' data-class='total' value='14' />
+            <format attr='font-size' data-class='subtotal' value='20' />
+            <format attr='font-size' data-class='total' scope='rows' value='14' />
+            <format attr='color' data-class='total' scope='rows' value='#c0c0c0' />
+            <format attr='font-size' field='[federated.0i32phn08t8ct71chkjel04n3fe1].[cnt:Theme:qk]' value='24' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='total' value='36' />
+            <format attr='font-size' data-class='subtotal' value='28' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0i32phn08t8ct71chkjel04n3fe1].[cnt:Theme:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true' />
+        <cols />
+      </table>
+      <simple-id uuid='{64DAD375-9EEC-490D-A543-64B98826A6AD}' />
+    </worksheet>
+    <worksheet name='Sheet 1 (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Task 1 (HelloFresh_Dataset)' name='federated.0i32phn08t8ct71chkjel04n3fe1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0i32phn08t8ct71chkjel04n3fe1'>
+            <column caption='Sub_Theme_count' datatype='integer' name='[Calculation_1291125777756336128]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Sub Theme])' />
+            </column>
+            <column datatype='string' name='[Pause Week]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sub Theme]' role='dimension' type='nominal' />
+            <column-instance column='[Pause Week]' derivation='None' name='[none:Pause Week:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sub Theme]' derivation='None' name='[none:Sub Theme:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1291125777756336128]' derivation='User' name='[usr:Calculation_1291125777756336128:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Pause Week:nk]'>
+            <groupfilter function='member' level='[none:Pause Week:nk]' member='&quot;W26&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Pause Week:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0i32phn08t8ct71chkjel04n3fe1].[usr:Calculation_1291125777756336128:qk]</rows>
+        <cols>([federated.0i32phn08t8ct71chkjel04n3fe1].[none:Pause Week:nk] / [federated.0i32phn08t8ct71chkjel04n3fe1].[none:Sub Theme:nk])</cols>
+      </table>
+      <simple-id uuid='{679A88FD-1403-465A-95B7-4BD455365B23}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>N. of Complains by Weeks</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Task 1 (HelloFresh_Dataset)' name='federated.0i32phn08t8ct71chkjel04n3fe1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0i32phn08t8ct71chkjel04n3fe1'>
+            <column caption='Sub_Theme_count' datatype='integer' name='[Calculation_1291125777756336128]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Sub Theme])' />
+            </column>
+            <column datatype='string' name='[Pause Week]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sub Theme]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Theme]' role='dimension' type='nominal' />
+            <column-instance column='[Sub Theme]' derivation='Count' name='[cnt:Sub Theme:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pause Week]' derivation='None' name='[none:Pause Week:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1291125777756336128]' derivation='User' name='[usr:Calculation_1291125777756336128:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0i32phn08t8ct71chkjel04n3fe1].[Action (Theme)]'>
+            <groupfilter function='level-members' level='[Theme]' user:ui-action-filter='[Action2_5C3368F400B140B29B4AA77402BBD77D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0i32phn08t8ct71chkjel04n3fe1].[Action (Theme)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' value='#ffffff' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='14' />
+            <format attr='color' value='#ffffff' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.0i32phn08t8ct71chkjel04n3fe1].[cnt:Sub Theme:qk]' />
+              <text column='[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Pause Week:nk]' />
+              <text column='[federated.0i32phn08t8ct71chkjel04n3fe1].[usr:Calculation_1291125777756336128:qk]' />
+              <color column='[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Pause Week:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{794EA630-3196-473F-85A3-D849F47711D2}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#ffd52f' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='Data Task 1 (HelloFresh_Dataset)' name='federated.0i32phn08t8ct71chkjel04n3fe1' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0i32phn08t8ct71chkjel04n3fe1'>
+        <column datatype='string' name='[Theme]' role='dimension' type='nominal' />
+        <column-instance column='[Theme]' derivation='None' name='[none:Theme:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='20000' id='15' type-v2='empty' w='31500' x='67300' y='7500'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#e6e6e6' />
+          </zone-style>
+        </zone>
+        <zone h='51750' id='14' type-v2='empty' w='32300' x='67000' y='32625'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#e6e6e6' />
+          </zone-style>
+        </zone>
+        <zone h='39250' id='11' type-v2='empty' w='64500' x='1600' y='59875'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#e6e6e6' />
+          </zone-style>
+        </zone>
+        <zone h='53750' id='10' type-v2='empty' w='64500' x='1500' y='5000'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#e6e6e6' />
+          </zone-style>
+        </zone>
+        <zone h='51000' id='3' type-v2='empty' w='62600' x='5000' y='6250' />
+        <zone h='50875' id='4' name='General_Compleins' w='62500' x='2100' y='6000' />
+        <zone h='34375' id='5' name='General_Compleins' param='[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Theme:nk]' type-v2='filter' values='database' w='16000' x='46900' y='6250' />
+        <zone h='37125' id='7' name='Details_Compleins (2)' w='62400' x='2500' y='60750' />
+        <zone h='51500' id='8' name='Sheet 4' w='35000' x='67500' y='31500' />
+        <zone h='14625' id='9' name='General_Compleins (3)' w='23800' x='69500' y='8875' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1050' minheight='1050' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='17' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='16' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='34375' id='5' mode='checkdropdown' name='General_Compleins' param='[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Theme:nk]' type-v2='filter' values='database' w='16000' x='46900' y='6250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='50875' id='4' is-fixed='true' name='General_Compleins' w='62500' x='2100' y='6000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='117' h='14625' id='9' is-fixed='true' name='General_Compleins (3)' w='23800' x='69500' y='8875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='51500' id='8' is-fixed='true' name='Sheet 4' w='35000' x='67500' y='31500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37125' id='7' is-fixed='true' name='Details_Compleins (2)' w='62400' x='2500' y='60750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9BE2BCFB-125E-4BB9-997A-95341A1DCE18}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='General_Compleins'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{A5081CD9-6E13-4B87-A496-57358AE1A09D}' />
+    </window>
+    <window class='worksheet' name='General_Compleins (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{99667729-5746-4922-B95F-1C2B0DBFC57B}' />
+    </window>
+    <window class='worksheet' name='General_Compleins (3)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E8D76B96-EE93-4441-BEAE-237E10B63548}' />
+    </window>
+    <window class='worksheet' name='Details_Compleins (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2715D066-4B44-425E-8342-0E7CBAB1E2CD}' />
+    </window>
+    <window class='worksheet' name='Details_Compleins'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{245839E3-3B64-41D1-8E3F-F107610F3C57}' />
+    </window>
+    <window class='worksheet' name='Sheet 1 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DDA5A992-7B22-421E-89BE-9B03B74F9D77}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0i32phn08t8ct71chkjel04n3fe1].[none:Pause Week:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B98DF9CC-BE3D-4604-9ECE-AE3F0E8E9BAF}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Details_Compleins (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='General_Compleins'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='General_Compleins (3)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{F461718B-417B-4453-85CF-6A3DC321BDB2}' />
+    </window>
+  </windows>
+</workbook>
