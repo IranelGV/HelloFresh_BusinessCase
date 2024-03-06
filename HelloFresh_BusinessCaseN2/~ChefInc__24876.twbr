@@ -1,0 +1,2135 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='Hellofress_BusinessCases2' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' inline='true' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DataSetTakeHomeTest_PO_DataPoints' name='excel-direct.1wwlqf41o77m8y1dfzymu0w9qt34'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/espan/OneDrive/Documents/GitHub/HelloFresh_BusinessCase/HelloFresh_BusinessCaseN2/DataSetTakeHomeTest_PO_DataPoints.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1wwlqf41o77m8y1dfzymu0w9qt34' name='Data-Set' table='[&apos;Data-Set$&apos;]' type='table'>
+          <columns gridOrigin='A1:P53:no:A1:P53:0' header='yes' outcome='2'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='Week' ordinal='1' />
+            <column datatype='integer' name='#total_active_customers' ordinal='2' />
+            <column datatype='real' name='WoW Growth' ordinal='3' />
+            <column datatype='integer' name='Recurring_orders' ordinal='4' />
+            <column datatype='real' name='Base Customer Order Percentage' ordinal='5' />
+            <column datatype='real' name='WoW Growth 1' ordinal='6' />
+            <column datatype='integer' name='#_Recurring_Shipped_Meals' ordinal='7' />
+            <column datatype='real' name='WoW Growth 2' ordinal='8' />
+            <column datatype='real' name='Meal Per  Recurring Order' ordinal='9' />
+            <column datatype='integer' name='New_orders' ordinal='10' />
+            <column datatype='real' name='New Customer Order Percentage' ordinal='11' />
+            <column datatype='real' name='WoW Growth 3' ordinal='12' />
+            <column datatype='integer' name='#_New_Shipped_Meals' ordinal='13' />
+            <column datatype='real' name='WoW Growth 4' ordinal='14' />
+            <column datatype='real' name='Meal Per Order - New Customer' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1wwlqf41o77m8y1dfzymu0w9qt34' name='Data-Set' table='[&apos;Data-Set$&apos;]' type='table'>
+          <columns gridOrigin='A1:P53:no:A1:P53:0' header='yes' outcome='2'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='Week' ordinal='1' />
+            <column datatype='integer' name='#total_active_customers' ordinal='2' />
+            <column datatype='real' name='WoW Growth' ordinal='3' />
+            <column datatype='integer' name='Recurring_orders' ordinal='4' />
+            <column datatype='real' name='Base Customer Order Percentage' ordinal='5' />
+            <column datatype='real' name='WoW Growth 1' ordinal='6' />
+            <column datatype='integer' name='#_Recurring_Shipped_Meals' ordinal='7' />
+            <column datatype='real' name='WoW Growth 2' ordinal='8' />
+            <column datatype='real' name='Meal Per  Recurring Order' ordinal='9' />
+            <column datatype='integer' name='New_orders' ordinal='10' />
+            <column datatype='real' name='New Customer Order Percentage' ordinal='11' />
+            <column datatype='real' name='WoW Growth 3' ordinal='12' />
+            <column datatype='integer' name='#_New_Shipped_Meals' ordinal='13' />
+            <column datatype='real' name='WoW Growth 4' ordinal='14' />
+            <column datatype='real' name='Meal Per Order - New Customer' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P53:no:A1:P53:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Week]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>Week</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>#total_active_customers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[#total_active_customers]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>#total_active_customers</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WoW Growth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WoW Growth]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>WoW Growth</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recurring_orders</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Recurring_orders]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>Recurring_orders</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Base Customer Order Percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Base Customer Order Percentage]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>Base Customer Order Percentage</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WoW Growth 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WoW Growth 1]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>WoW Growth 1</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>#_Recurring_Shipped_Meals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[#_Recurring_Shipped_Meals]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>#_Recurring_Shipped_Meals</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WoW Growth 2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WoW Growth 2]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>WoW Growth 2</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Meal Per  Recurring Order</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Meal Per  Recurring Order]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>Meal Per  Recurring Order</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New_orders</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New_orders]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>New_orders</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Customer Order Percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[New Customer Order Percentage]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>New Customer Order Percentage</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WoW Growth 3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WoW Growth 3]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>WoW Growth 3</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>#_New_Shipped_Meals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[#_New_Shipped_Meals]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>#_New_Shipped_Meals</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WoW Growth 4</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WoW Growth 4]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>WoW Growth 4</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Meal Per Order - New Customer</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Meal Per Order - New Customer]</local-name>
+            <parent-name>[Data-Set]</parent-name>
+            <remote-alias>Meal Per Order - New Customer</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='# NewSM' datatype='integer' name='[#_New_Shipped_Meals]' role='measure' type='quantitative' />
+      <column caption='# Recurring Shipped Meals' datatype='integer' name='[#_Recurring_Shipped_Meals]' role='measure' type='quantitative' />
+      <column caption='#Total Active Customers' datatype='integer' name='[#total_active_customers]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Base Customer Order Percentage]' role='measure' type='quantitative' />
+      <column caption='Rate_NwCustomers&amp;NwSM' datatype='real' name='[Calculation_1516587234028163072]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[New_orders]/[#_New_Shipped_Meals]' />
+      </column>
+      <column caption='Rate_Recurring_ShippedMeals' datatype='real' name='[Calculation_1516587234033303553]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Recurring_orders]/ [#_Recurring_Shipped_Meals]' />
+      </column>
+      <column caption='Seassons' datatype='string' name='[F1]' role='dimension' type='nominal' />
+      <column datatype='real' name='[New Customer Order Percentage]' role='measure' type='quantitative' />
+      <column caption='New orders' datatype='integer' name='[New_orders]' role='measure' type='quantitative' />
+      <column caption='Recurring orders' datatype='integer' name='[Recurring_orders]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Data-Set' datatype='table' name='[__tableau_internal_object_id__].[Data-Set_C07D96804D794C7F9DB360A83A1EF007]' role='measure' type='quantitative' />
+      <column-instance column='[Base Customer Order Percentage]' derivation='Sum' name='[sum:Base Customer Order Percentage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1516587234028163072]' derivation='Sum' name='[sum:Calculation_1516587234028163072:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1516587234033303553]' derivation='Sum' name='[sum:Calculation_1516587234033303553:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Customer Order Percentage]' derivation='Sum' name='[sum:New Customer Order Percentage:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Seassons)' hidden='true' name='[Action (Seassons)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[F1]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/espan/OneDrive/Documents/GitHub/HelloFresh_BusinessCase/HelloFresh_BusinessCaseN2/Data-Set (DataSetTakeHomeTest_PO_DataPoints).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/27/2024 11:31:03 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' increment-value='%null%' refresh-type='create' rows-inserted='52' timestamp-start='2024-02-27 11:31:02.635' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Data-Set</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Week]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Data-Set</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>#total_active_customers</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[#total_active_customers]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>#total_active_customers</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Data-Set</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WoW Growth</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[WoW Growth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WoW Growth</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Data-Set</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Recurring_orders</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Recurring_orders]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Recurring_orders</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Data-Set</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Base Customer Order Percentage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Base Customer Order Percentage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Base Customer Order Percentage</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Data-Set</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WoW Growth 1</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[WoW Growth 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WoW Growth 1</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Data-Set</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>#_Recurring_Shipped_Meals</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[#_Recurring_Shipped_Meals]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>#_Recurring_Shipped_Meals</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Data-Set</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WoW Growth 2</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[WoW Growth 2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WoW Growth 2</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Data-Set</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Meal Per  Recurring Order</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Meal Per  Recurring Order]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Meal Per  Recurring Order</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Data-Set</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>New_orders</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[New_orders]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>New_orders</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Data-Set</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>New Customer Order Percentage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[New Customer Order Percentage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>New Customer Order Percentage</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Data-Set</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WoW Growth 3</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[WoW Growth 3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WoW Growth 3</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Data-Set</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>#_New_Shipped_Meals</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[#_New_Shipped_Meals]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>#_New_Shipped_Meals</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Data-Set</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WoW Growth 4</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[WoW Growth 4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WoW Growth 4</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Data-Set</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Meal Per Order - New Customer</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Meal Per Order - New Customer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Meal Per Order - New Customer</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Data-Set</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data-Set_C07D96804D794C7F9DB360A83A1EF007]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Base Customer Order Percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:New Customer Order Percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Calculation_1516587234028163072:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Calculation_1516587234033303553:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;USA&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data-Set' id='Data-Set_C07D96804D794C7F9DB360A83A1EF007'>
+            <properties context=''>
+              <relation connection='excel-direct.1wwlqf41o77m8y1dfzymu0w9qt34' name='Data-Set' table='[&apos;Data-Set$&apos;]' type='table'>
+                <columns gridOrigin='A1:P53:no:A1:P53:0' header='yes' outcome='2'>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='string' name='Week' ordinal='1' />
+                  <column datatype='integer' name='#total_active_customers' ordinal='2' />
+                  <column datatype='real' name='WoW Growth' ordinal='3' />
+                  <column datatype='integer' name='Recurring_orders' ordinal='4' />
+                  <column datatype='real' name='Base Customer Order Percentage' ordinal='5' />
+                  <column datatype='real' name='WoW Growth 1' ordinal='6' />
+                  <column datatype='integer' name='#_Recurring_Shipped_Meals' ordinal='7' />
+                  <column datatype='real' name='WoW Growth 2' ordinal='8' />
+                  <column datatype='real' name='Meal Per  Recurring Order' ordinal='9' />
+                  <column datatype='integer' name='New_orders' ordinal='10' />
+                  <column datatype='real' name='New Customer Order Percentage' ordinal='11' />
+                  <column datatype='real' name='WoW Growth 3' ordinal='12' />
+                  <column datatype='integer' name='#_New_Shipped_Meals' ordinal='13' />
+                  <column datatype='real' name='WoW Growth 4' ordinal='14' />
+                  <column datatype='real' name='Meal Per Order - New Customer' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='NewCustomersVsShippedMeals'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontsize='12'>New Customers vs  Shipped Meals </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column caption='# NewSM' datatype='integer' name='[#_New_Shipped_Meals]' role='measure' type='quantitative' />
+            <column caption='Seassons' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='New orders' datatype='integer' name='[New_orders]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[#_New_Shipped_Meals]' derivation='Sum' name='[sum:#_New_Shipped_Meals:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New_orders]' derivation='Sum' name='[sum:New_orders:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:New_orders:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:\#_New_Shipped_Meals:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:New_orders:qk]&quot;</bucket>
+              <bucket>&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:\#_New_Shipped_Meals:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]' value='56' />
+            <format attr='height' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' value='10' />
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' value='118' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#eadaf2</color>
+                <color>#e3c3f3</color>
+                <color>#dcabf5</color>
+                <color>#d593f6</color>
+                <color>#ce7cf8</color>
+                <color>#c763f9</color>
+                <color>#c04bfa</color>
+                <color>#b832fc</color>
+                <color>#b119fd</color>
+                <color>#aa00ff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='data-highlighter-title'>
+            <format attr='font-size' value='8' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]</rows>
+        <cols>([federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk] / [federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{501053C9-7349-4A3F-A879-2230E54AAB37}' />
+    </worksheet>
+    <worksheet name='New_Customers'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>New Customers</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column caption='Seassons' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='New orders' datatype='integer' name='[New_orders]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[New_orders]' derivation='Sum' name='[sum:New_orders:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:New_orders:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#eadaf2</color>
+                <color>#e3c3f3</color>
+                <color>#dcabf5</color>
+                <color>#d593f6</color>
+                <color>#ce7cf8</color>
+                <color>#c763f9</color>
+                <color>#c04bfa</color>
+                <color>#b832fc</color>
+                <color>#b119fd</color>
+                <color>#aa00ff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:New_orders:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:New_orders:qk]</rows>
+        <cols>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{61099F7B-46E1-4F37-B047-203711B50DEE}' />
+    </worksheet>
+    <worksheet name='New_Customers_SM'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>New Shipped Meals</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column caption='# NewSM' datatype='integer' name='[#_New_Shipped_Meals]' role='measure' type='quantitative' />
+            <column caption='Seassons' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[#_New_Shipped_Meals]' derivation='Sum' name='[sum:#_New_Shipped_Meals:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#_New_Shipped_Meals:qk]' field-type='quantitative' max='100000' min='0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]' value='78' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#_New_Shipped_Meals:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#eae2f2</color>
+                <color>#e3d3f3</color>
+                <color>#dcc4f5</color>
+                <color>#d5b4f6</color>
+                <color>#cea5f8</color>
+                <color>#c795f9</color>
+                <color>#c085fa</color>
+                <color>#b875fc</color>
+                <color>#b165fd</color>
+                <color>#aa55ff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#_New_Shipped_Meals:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#_New_Shipped_Meals:qk]</rows>
+        <cols>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{0068ECBA-5546-49A2-B653-6C1C6457ABD6}' />
+    </worksheet>
+    <worksheet name='RateNewCustomers&amp;RecurringCustomers'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#ffffff' fontsize='11'>Rate New Customer vs  Recurring Customers</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column caption='# NewSM' datatype='integer' name='[#_New_Shipped_Meals]' role='measure' type='quantitative' />
+            <column caption='# Recurring Shipped Meals' datatype='integer' name='[#_Recurring_Shipped_Meals]' role='measure' type='quantitative' />
+            <column caption='Rate_NwCustomers&amp;NwSM' datatype='real' name='[Calculation_1516587234028163072]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[New_orders]/[#_New_Shipped_Meals]' />
+            </column>
+            <column caption='Rate_Recurring_ShippedMeals' datatype='real' name='[Calculation_1516587234033303553]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Recurring_orders]/ [#_Recurring_Shipped_Meals]' />
+            </column>
+            <column caption='Seassons' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='New orders' datatype='integer' name='[New_orders]' role='measure' type='quantitative' />
+            <column caption='Recurring orders' datatype='integer' name='[Recurring_orders]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1516587234028163072]' derivation='Sum' name='[sum:Calculation_1516587234028163072:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1516587234033303553]' derivation='Sum' name='[sum:Calculation_1516587234033303553:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Calculation_1516587234028163072:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Calculation_1516587234033303553:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]' field-type='quantitative' max='2.7966855137675468' min='2.0' range-type='fixed' scale='log' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]' scope='rows' value='Rate New Customers&amp;Recurring Customers' />
+            <format attr='width' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]' value='52' />
+            <format attr='height' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' value='10' />
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' value='212' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='10' />
+            <format attr='height' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]' value='39' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]</rows>
+        <cols>([federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk] / [federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{DC99FAB1-C4BE-4DC2-B048-87BAE6C938AA}' />
+    </worksheet>
+    <worksheet name='Rate_NewOrders'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Rate New Orders</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column caption='# NewSM' datatype='integer' name='[#_New_Shipped_Meals]' role='measure' type='quantitative' />
+            <column caption='Rate_NwCustomers&amp;NwSM' datatype='real' name='[Calculation_1516587234028163072]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[New_orders]/[#_New_Shipped_Meals]' />
+            </column>
+            <column caption='Seassons' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='New orders' datatype='integer' name='[New_orders]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1516587234028163072]' derivation='Sum' name='[sum:Calculation_1516587234028163072:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]' value='88' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Calculation_1516587234028163072:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#eadaf2</color>
+                <color>#e3c3f3</color>
+                <color>#dcabf5</color>
+                <color>#d593f6</color>
+                <color>#ce7cf8</color>
+                <color>#c763f9</color>
+                <color>#c04bfa</color>
+                <color>#b832fc</color>
+                <color>#b119fd</color>
+                <color>#aa00ff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Calculation_1516587234028163072:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Calculation_1516587234028163072:qk]</rows>
+        <cols>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{9FDB7AE6-B490-4242-BDE7-462EA5AC6AFB}' />
+    </worksheet>
+    <worksheet name='Rate_Recurring'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column caption='# Recurring Shipped Meals' datatype='integer' name='[#_Recurring_Shipped_Meals]' role='measure' type='quantitative' />
+            <column caption='Rate_Recurring_ShippedMeals' datatype='real' name='[Calculation_1516587234033303553]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Recurring_orders]/ [#_Recurring_Shipped_Meals]' />
+            </column>
+            <column caption='Seassons' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='Recurring orders' datatype='integer' name='[Recurring_orders]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1516587234033303553]' derivation='Sum' name='[sum:Calculation_1516587234033303553:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Calculation_1516587234033303553:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Calculation_1516587234033303553:qk]</rows>
+        <cols>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{86407625-8A64-4195-B29C-A758FD583571}' />
+    </worksheet>
+    <worksheet name='RecurringCustomersVsRecurringSM'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontsize='12'>Recurring Customer Vs. </run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#ffffff' fontsize='12'>Recurring SM</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column caption='# Recurring Shipped Meals' datatype='integer' name='[#_Recurring_Shipped_Meals]' role='measure' type='quantitative' />
+            <column caption='Seassons' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='Recurring orders' datatype='integer' name='[Recurring_orders]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[#_Recurring_Shipped_Meals]' derivation='Sum' name='[sum:#_Recurring_Shipped_Meals:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Recurring_orders]' derivation='Sum' name='[sum:Recurring_orders:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Recurring_orders:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:\#_Recurring_Shipped_Meals:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Recurring_orders:qk]&quot;</bucket>
+              <bucket>&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:\#_Recurring_Shipped_Meals:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]' value='72' />
+            <format attr='height' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' value='10' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' value='110' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]' value='35' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-orientation' value='0' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]</rows>
+        <cols>([federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk] / [federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{64D3EC48-40B2-44B6-87F0-7FAE8EC0C23A}' />
+    </worksheet>
+    <worksheet name='Recurring_Customers_orders'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Recurring Customers Orders</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column caption='Seassons' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='Recurring orders' datatype='integer' name='[Recurring_orders]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Recurring_orders]' derivation='Sum' name='[sum:Recurring_orders:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Recurring_orders:qk]' />
+              <text column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Recurring_orders:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Recurring_orders:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-orientation' value='0' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Recurring_orders:qk]</rows>
+        <cols>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{F95A68F0-0E59-48E9-BE47-94DCBA3D41DA}' />
+    </worksheet>
+    <worksheet name='Recurring_SM'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Recurring Shipped Meals</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column caption='# Recurring Shipped Meals' datatype='integer' name='[#_Recurring_Shipped_Meals]' role='measure' type='quantitative' />
+            <column caption='Seassons' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[#_Recurring_Shipped_Meals]' derivation='Sum' name='[sum:#_Recurring_Shipped_Meals:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]' value='78' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#_Recurring_Shipped_Meals:qk]' />
+              <text column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#_Recurring_Shipped_Meals:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#_Recurring_Shipped_Meals:qk]</rows>
+        <cols>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{13B73532-54AB-41D5-B4FF-3EC0DE330148}' />
+    </worksheet>
+    <worksheet name='Sheet 11'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column caption='New orders' datatype='integer' name='[New_orders]' role='measure' type='quantitative' />
+            <column caption='Recurring orders' datatype='integer' name='[Recurring_orders]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Week]' role='dimension' type='nominal' />
+            <column-instance column='[Week]' derivation='None' name='[none:Week:nk]' pivot='key' type='nominal' />
+            <column-instance column='[New_orders]' derivation='Sum' name='[sum:New_orders:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Recurring_orders]' derivation='Sum' name='[sum:Recurring_orders:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:New_orders:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Recurring_orders:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]</rows>
+        <cols>([federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:Week:nk] / [federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{E8F857B4-3479-42B9-AC61-A34DF782FFC5}' />
+    </worksheet>
+    <worksheet name='Sheet 12'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column caption='New orders' datatype='integer' name='[New_orders]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Week]' role='dimension' type='nominal' />
+            <column-instance column='[Week]' derivation='None' name='[none:Week:nk]' pivot='key' type='nominal' />
+            <column-instance column='[New_orders]' derivation='Sum' name='[sum:New_orders:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:New_orders:qk]</rows>
+        <cols>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:Week:nk]</cols>
+      </table>
+      <simple-id uuid='{EA5ECAC8-732E-44C3-9BFC-1E3D528427B5}' />
+    </worksheet>
+    <worksheet name='Sheet 13'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column datatype='string' name='[Week]' role='dimension' type='nominal' />
+            <column datatype='real' name='[WoW Growth 1]' role='measure' type='quantitative' />
+            <column-instance column='[Week]' derivation='None' name='[none:Week:nk]' pivot='key' type='nominal' />
+            <column-instance column='[WoW Growth 1]' derivation='Sum' name='[sum:WoW Growth 1:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:WoW Growth 1:qk]</rows>
+        <cols>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:Week:nk]</cols>
+      </table>
+      <simple-id uuid='{781A61F9-4DC9-4EC8-A644-D0A822459595}' />
+    </worksheet>
+    <worksheet name='Sheet 14'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column datatype='real' name='[Base Customer Order Percentage]' role='measure' type='quantitative' />
+            <column caption='Seassons' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column datatype='real' name='[New Customer Order Percentage]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Base Customer Order Percentage]' derivation='Sum' name='[sum:Base Customer Order Percentage:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Customer Order Percentage]' derivation='Sum' name='[sum:New Customer Order Percentage:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Base Customer Order Percentage:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:New Customer Order Percentage:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]</rows>
+        <cols>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{12834671-8171-48B4-B689-B575DC4AB26B}' />
+    </worksheet>
+    <worksheet name='Sheet 15'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column caption='Seassons' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='New orders' datatype='integer' name='[New_orders]' role='measure' type='quantitative' />
+            <column caption='Recurring orders' datatype='integer' name='[Recurring_orders]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[New_orders]' derivation='Sum' name='[sum:New_orders:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Recurring_orders]' derivation='Sum' name='[sum:Recurring_orders:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:New_orders:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Recurring_orders:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]</rows>
+        <cols>([federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk] / [federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{3D7DA9C6-4843-48AC-B0AA-0720F8A89458}' />
+    </worksheet>
+    <worksheet name='Total_Active_Customers'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontsize='12'>Total Active Customers</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data-Set (DataSetTakeHomeTest_PO_DataPoints)' name='federated.19r9f811rdjbyf0zwvpc40u5diq7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19r9f811rdjbyf0zwvpc40u5diq7'>
+            <column caption='#Total Active Customers' datatype='integer' name='[#total_active_customers]' role='measure' type='quantitative' />
+            <column caption='Seassons' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[#total_active_customers]' derivation='Sum' name='[sum:#total_active_customers:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#total_active_customers:qk]' value='68' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]' value='89' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#total_active_customers:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d2e9d2</color>
+                <color>#b5e2b5</color>
+                <color>#99db99</color>
+                <color>#7fd47f</color>
+                <color>#66cd66</color>
+                <color>#4fc64f</color>
+                <color>#39bf39</color>
+                <color>#24b824</color>
+                <color>#11b111</color>
+                <color>#00aa00</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#total_active_customers:qk]' />
+              <text column='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#total_active_customers:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-orientation' value='0' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#total_active_customers:qk]</rows>
+        <cols>[federated.19r9f811rdjbyf0zwvpc40u5diq7].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{04238822-FB3C-488B-9C5F-B7D787C22126}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#d4d4d4' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='7750' id='23' type-v2='empty' w='43300' x='54700' y='50875'>
+          <zone-style>
+            <format attr='border-color' value='#666666' />
+            <format attr='border-style' value='dotted' />
+            <format attr='border-width' value='2' />
+            <format attr='background-color' value='#00bb008b' />
+          </zone-style>
+        </zone>
+        <zone h='5875' id='22' type-v2='empty' w='39300' x='1200' y='52875'>
+          <zone-style>
+            <format attr='border-color' value='#666666' />
+            <format attr='border-style' value='dotted' />
+            <format attr='border-width' value='2' />
+            <format attr='background-color' value='#00bb008b' />
+          </zone-style>
+        </zone>
+        <zone h='7250' id='21' type-v2='empty' w='28600' x='55100' y='7250'>
+          <zone-style>
+            <format attr='border-color' value='#666666' />
+            <format attr='border-style' value='dotted' />
+            <format attr='border-width' value='2' />
+            <format attr='background-color' value='#00bb008b' />
+          </zone-style>
+        </zone>
+        <zone h='8000' id='20' type-v2='empty' w='27400' x='1100' y='6500'>
+          <zone-style>
+            <format attr='border-color' value='#666666' />
+            <format attr='border-style' value='dotted' />
+            <format attr='border-width' value='2' />
+            <format attr='background-color' value='#00bb008b' />
+          </zone-style>
+        </zone>
+        <zone h='46375' id='9' name='RecurringCustomersVsRecurringSM' w='51900' x='1100' y='5875' />
+        <zone h='45375' id='11' name='NewCustomersVsShippedMeals' w='51500' x='1300' y='53625' />
+        <zone h='48875' id='12' name='RateNewCustomers&amp;RecurringCustomers' w='43200' x='54500' y='50125' />
+        <zone h='39625' id='13' name='Total_Active_Customers' w='42400' x='55100' y='9625' />
+        <zone h='9500' id='15' type-v2='empty' w='23600' x='74000' y='89500'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#e6e6e6' />
+          </zone-style>
+        </zone>
+        <zone h='9500' id='14' name='RateNewCustomers&amp;RecurringCustomers' pane-specification-id='0' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' type-v2='color' w='22300' x='74700' y='89375' />
+        <zone h='7000' id='18' name='NewCustomersVsShippedMeals' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' type-v2='highlighter' w='10800' x='41600' y='52000' />
+        <zone h='6625' id='19' name='RecurringCustomersVsRecurringSM' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' type-v2='highlighter' w='21500' x='30900' y='6000' />
+        <zone h='3000' id='25' type-v2='empty' w='85100' x='-100' y='2250'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#ffffff' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='30' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='6625' id='19' name='RecurringCustomersVsRecurringSM' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' type-v2='highlighter' w='21500' x='30900' y='6000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46375' id='9' is-fixed='true' name='RecurringCustomersVsRecurringSM' w='51900' x='1100' y='5875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39625' id='13' is-fixed='true' name='Total_Active_Customers' w='42400' x='55100' y='9625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48875' id='12' is-fixed='true' name='RateNewCustomers&amp;RecurringCustomers' w='43200' x='54500' y='50125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9500' id='14' name='RateNewCustomers&amp;RecurringCustomers' pane-specification-id='0' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' type-v2='color' w='22300' x='74700' y='89375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7000' id='18' name='NewCustomersVsShippedMeals' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' type-v2='highlighter' w='10800' x='41600' y='52000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45375' id='11' is-fixed='true' name='NewCustomersVsShippedMeals' w='51500' x='1300' y='53625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{299AFF13-DF65-443A-8B4D-93EF8D83DDE5}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='44'>
+    <window class='worksheet' name='Total_Active_Customers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#total_active_customers:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{31B854B5-340F-4166-835D-B17295368C36}' />
+    </window>
+    <window class='worksheet' name='Recurring_Customers_orders'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Recurring_orders:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3272AECC-3503-455A-9654-CE10987AD1AA}' />
+    </window>
+    <window class='worksheet' name='Recurring_SM'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#_Recurring_Shipped_Meals:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3877114E-2D78-4E7F-B32C-A83B29D7A93F}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Rate_Recurring'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Calculation_1516587234033303553:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BA07C22E-9D76-4877-999C-1A5E2DFB5CB7}' />
+    </window>
+    <window class='worksheet' name='New_Customers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:New_orders:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6A2E8351-3923-4A83-9C51-DE51CC451D74}' />
+    </window>
+    <window class='worksheet' name='RecurringCustomersVsRecurringSM'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9A861618-A173-4489-BE46-59F33385C20D}' />
+    </window>
+    <window class='worksheet' name='New_Customers_SM'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:#_New_Shipped_Meals:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C3D13A54-A397-4B85-86DB-488042F4EEF7}' />
+    </window>
+    <window class='worksheet' name='NewCustomersVsShippedMeals'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[Multiple Values]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{248BFB57-87A0-4231-897F-C5ED14253FCC}' />
+    </window>
+    <window class='worksheet' name='Rate_NewOrders'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[sum:Calculation_1516587234028163072:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E60ABFCD-D18E-4F06-A988-B95E4A6753B8}' />
+    </window>
+    <window class='worksheet' name='RateNewCustomers&amp;RecurringCustomers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' type='color' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{915D1321-7604-47EB-AE24-A6D2E25727C8}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='NewCustomersVsShippedMeals'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='RateNewCustomers&amp;RecurringCustomers'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='RecurringCustomersVsRecurringSM'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total_Active_Customers'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{00AE7C60-D2CF-47A3-B540-DE6A0837D8D4}' />
+    </window>
+    <window class='worksheet' name='Sheet 11'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EFC85701-3A72-48AC-B80E-66E9751AD486}' />
+    </window>
+    <window class='worksheet' name='Sheet 12'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B501EDFA-3F52-4DB5-B583-BC59DF500E7D}' />
+    </window>
+    <window class='worksheet' name='Sheet 13'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{81F28108-8C60-4D41-A0B4-FD5C06FD1DCD}' />
+    </window>
+    <window class='worksheet' name='Sheet 14'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19r9f811rdjbyf0zwvpc40u5diq7].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C1F1BE02-C969-429F-9573-7C5168438BF9}' />
+    </window>
+    <window class='worksheet' name='Sheet 15'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A83542BB-A9AF-44CB-9A9C-39EC28AB755B}' />
+    </window>
+  </windows>
+</workbook>
